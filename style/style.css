@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/assets/cool-background\ \(1\).png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* The coilective frame */
+.container {
+    width: 70vw;
+    text-align: center;
+    background-color: rgba(17, 17, 17, 0.37);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Header */
+
+.header {
+    color: white;
+    background-color: black;
+}
+
+/* nav bar */
+.btnBox {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.btnBox li {
+    list-style: none;
+}
+
+li > button {
+    background: red;
+    outline: none;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.centerLeft {
+    margin: 0 10px;
+}
+
+.centerRight {
+    margin-right: 10px;
+}
+/* Main */
+.main {
+    height: 80%;
+}
+
+.main_inner {
+    background: rgba(32, 32, 32, 0.205);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+
+.main_inner::-webkit-scrollbar {
+    width: 3px;               /* width of the entire scrollbar */
+}
+  
+.main_inner::-webkit-scrollbar-track {
+    background: black;       /* color of the tracking area */
+}
+  
+.main_inner::-webkit-scrollbar-thumb {
+    background-color: red;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
+}
+
+.box {
+    display: flex;
+    width: 90%;
+    min-height: 200px;
+    background: white;
+    margin: 10px 0;
+}
+
+.type { 
+    background: red;
+    width: 50%;
+}
+
+.content {
+    background: blue;
+    width: 50%;
+}
+
+/* Footer */
+.footer {
+    background: black;
+    color: white;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}

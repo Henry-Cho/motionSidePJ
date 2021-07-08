@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <script type= "module" src="./dist/app.js"></script>
     <title>Motion.HS</title>
 </head>
 <body>
@@ -19,19 +19,23 @@
             <nav class="nav">
                 <!-- Button box -->
                 <ul class="btnBox">
-                    <li><button>Image</button></li>
-                    <li class="centerLeft"><button>Video</button></li>
-                    <li class="centerRight"><button>Note</button></li>
-                    <li><button>Task</button></li>
+                    <li><button class="modal">Image</button></li>
+                    <li class="centerLeft"><button class="modal">Video</button></li>
+                    <li class="centerRight"><button class="modal">Note</button></li>
+                    <li><button class="modal">Task</button></li>
                 </ul>
             </nav>
         </section>
         
         <!-- Main section -->
         <section class="main">
-            asdfasd
             <!-- 스크롤 크기 정의 -->
             <div class="main_inner">
+                
+                <div class="box">
+                    <div class="type"></div>
+                    <div class="content"></div>
+                </div>
                 <div class="box">
                     <div class="type"></div>
                     <div class="content"></div>
