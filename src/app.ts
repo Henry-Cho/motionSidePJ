@@ -16,7 +16,7 @@ class App {
 
         const todo = new TodoComponent("HEHEHE", "LOL");
 
-        const video = new VideoComponent("New Video", "https://www.youtube.com/embed/0-q1KafFCLU")
+        const video = new VideoComponent("New Video", "https://youtu.be/0-q1KafFCLU")
         image.attachTo(appRoot, 'beforeend');
         note.attachTo(appRoot, "beforeend");
         todo.attachTo(appRoot, "beforeend");
