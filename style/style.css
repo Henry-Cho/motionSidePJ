@@ -102,6 +102,14 @@ li > button {
     width: 50%;
 }
 
+.page-item {
+    list-style: none;
+}
+
+.page-item__controls {
+    text-align: left;
+}
+
 /* Footer */
 .footer {
     background: black;
