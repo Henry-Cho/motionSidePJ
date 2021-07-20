@@ -13,6 +13,10 @@ body {
     background-position: center;
 }
 
+ul {
+    padding: 0;
+}
+
 /* The coilective frame */
 .container {
     width: 70vw;
@@ -109,6 +113,31 @@ li > button {
 .page-item__controls {
     text-align: left;
 }
+
+/* Modal */
+.dialog__outer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.356);
+    position: fixed;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog__inner {
+    background-color: rgb(212, 179, 179);
+    width: 50%;
+    box-shadow: 2px 2px 20px rgb(97, 94, 94);
+}
+
+.dialog__inner button {
+    width: 100%;
+}
+
+
+
 
 /* Footer */
 .footer {
